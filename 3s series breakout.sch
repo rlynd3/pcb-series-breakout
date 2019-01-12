@@ -1,0 +1,269 @@
+EESchema Schematic File Version 4
+LIBS:3s series breakout-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x04_Female 3S-1
+U 1 1 5C382F67
+P 3900 1900
+F 0 "3S-1" H 3950 1900 50  0000 L CNN
+F 1 "JST XH 3S" H 3950 1800 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S04B-XH-A_1x04_P2.50mm_Horizontal" H 3900 1900 50  0001 C CNN
+F 3 "~" H 3900 1900 50  0001 C CNN
+	1    3900 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female 3S-2
+U 1 1 5C382FE7
+P 3900 2400
+F 0 "3S-2" H 4050 2400 50  0000 C CNN
+F 1 "JST XH 3S" H 3950 2300 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S04B-XH-A_1x04_P2.50mm_Horizontal" H 3900 2400 50  0001 C CNN
+F 3 "~" H 3900 2400 50  0001 C CNN
+	1    3900 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female 3S-3
+U 1 1 5C38300F
+P 3900 2900
+F 0 "3S-3" H 4050 2900 50  0000 C CNN
+F 1 "JST XH 3S" H 4150 2800 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S04B-XH-A_1x04_P2.50mm_Horizontal" H 3900 2900 50  0001 C CNN
+F 3 "~" H 3900 2900 50  0001 C CNN
+	1    3900 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female 3S-4
+U 1 1 5C38315C
+P 3900 3400
+F 0 "3S-4" H 4050 3400 50  0000 C CNN
+F 1 "JST XH 3S" H 3950 3300 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S04B-XH-A_1x04_P2.50mm_Horizontal" H 3900 3400 50  0001 C CNN
+F 3 "~" H 3900 3400 50  0001 C CNN
+	1    3900 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female 4S-5
+U 1 1 5C38318C
+P 3900 4000
+F 0 "4S-5" H 4300 4000 50  0000 C CNN
+F 1 "JST XH 4S" H 4150 3900 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S05B-XH-A_1x05_P2.50mm_Horizontal" H 3900 4000 50  0001 C CNN
+F 3 "~" H 3900 4000 50  0001 C CNN
+	1    3900 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x07_Female 6S
+U 1 1 5C383D11
+P 4750 2100
+F 0 "6S" H 4500 2550 50  0000 C TNN
+F 1 "JST XH 6S" H 4650 2650 50  0000 C TNN
+F 2 "Connector_JST:JST_XH_B07B-XH-A_1x07_P2.50mm_Vertical" H 4750 2100 50  0001 C CNN
+F 3 "~" H 4750 2100 50  0001 C CNN
+	1    4750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x13_Female 12S-A
+U 1 1 5C383DA2
+P 5300 2400
+F 0 "12S-A" H 5350 3150 50  0000 C TNN
+F 1 "JST XH 12s" H 5200 3250 50  0000 C TNN
+F 2 "Connector_JST:JST_XH_B13B-XH-A_1x13_P2.50mm_Vertical" H 5300 2400 50  0001 C CNN
+F 3 "~" H 5300 2400 50  0001 C CNN
+	1    5300 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1800 4550 1800
+Wire Wire Line
+	4100 1900 4550 1900
+Wire Wire Line
+	4100 2000 4550 2000
+Wire Wire Line
+	4100 2400 4200 2400
+Wire Wire Line
+	4200 2400 4400 2200
+Wire Wire Line
+	4400 2200 4550 2200
+Wire Wire Line
+	4100 2500 4250 2500
+Wire Wire Line
+	4250 2500 4450 2300
+Wire Wire Line
+	4450 2300 4550 2300
+Wire Wire Line
+	4100 3300 4100 3100
+$Comp
+L Connector:Conn_01x05_Female 4S-6
+U 1 1 5C3E3460
+P 3900 4600
+F 0 "4S-6" H 4300 4600 50  0000 C CNN
+F 1 "JST XH 4S" H 4150 4500 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S05B-XH-A_1x05_P2.50mm_Horizontal" H 3900 4600 50  0001 C CNN
+F 3 "~" H 3900 4600 50  0001 C CNN
+	1    3900 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female 16S-B
+U 1 1 5C3E34CD
+P 5300 3500
+F 0 "16S-B" H 5200 3750 50  0000 C TNN
+F 1 "JST XH 16S-B" H 5200 3850 50  0000 C TNN
+F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 5300 3500 50  0001 C CNN
+F 3 "~" H 5300 3500 50  0001 C CNN
+	1    5300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female 20S-C
+U 1 1 5C3E3643
+P 5300 4200
+F 0 "20S-C" H 5200 4450 50  0000 C TNN
+F 1 "JST XH 20S-B" H 5200 4550 50  0000 C TNN
+F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 5300 4200 50  0001 C CNN
+F 3 "~" H 5300 4200 50  0001 C CNN
+	1    5300 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2600 4100 2600
+Wire Wire Line
+	4500 2400 4300 2600
+Wire Wire Line
+	4550 2400 4500 2400
+Wire Wire Line
+	4550 2500 4150 2900
+Wire Wire Line
+	4150 2900 4100 2900
+Wire Wire Line
+	4600 2600 4200 3000
+Wire Wire Line
+	4200 3000 4100 3000
+Wire Wire Line
+	4650 2700 4250 3100
+Connection ~ 4100 3100
+Wire Wire Line
+	4700 2800 4100 3400
+Wire Wire Line
+	4750 2900 4150 3500
+Wire Wire Line
+	4150 3500 4100 3500
+Wire Wire Line
+	4800 3000 4200 3600
+Wire Wire Line
+	4100 3100 4250 3100
+Wire Wire Line
+	4100 2800 4100 2600
+Connection ~ 4100 2600
+Wire Wire Line
+	4100 2300 4100 2100
+Wire Wire Line
+	4100 2100 4550 2100
+Wire Wire Line
+	4100 3600 4200 3600
+Wire Wire Line
+	4100 3800 4100 3600
+Connection ~ 4100 3600
+Wire Wire Line
+	4100 4400 4100 4200
+Wire Wire Line
+	4600 3400 4100 3900
+Wire Wire Line
+	4650 3500 4150 4000
+Wire Wire Line
+	4150 4000 4100 4000
+Wire Wire Line
+	4700 3600 4200 4100
+Wire Wire Line
+	4200 4100 4100 4100
+Wire Wire Line
+	4750 3700 4250 4200
+Wire Wire Line
+	4250 4200 4100 4200
+Connection ~ 4100 4200
+Wire Wire Line
+	4550 4100 4150 4500
+Wire Wire Line
+	4600 4200 4200 4600
+Wire Wire Line
+	4200 4600 4100 4600
+Wire Wire Line
+	4650 4300 4250 4700
+Wire Wire Line
+	4250 4700 4100 4700
+Wire Wire Line
+	4700 4400 4300 4800
+Wire Wire Line
+	4300 4800 4100 4800
+Wire Wire Line
+	4100 4500 4150 4500
+Wire Wire Line
+	4550 2500 5100 2500
+Wire Wire Line
+	4600 2600 5100 2600
+Wire Wire Line
+	4650 2700 5100 2700
+Wire Wire Line
+	5100 2800 4700 2800
+Wire Wire Line
+	5100 2900 4750 2900
+Wire Wire Line
+	5100 3000 4800 3000
+Connection ~ 4100 2100
+Wire Wire Line
+	5100 3400 4600 3400
+Wire Wire Line
+	5100 3500 4650 3500
+Wire Wire Line
+	5100 3600 4700 3600
+Wire Wire Line
+	5100 3700 4750 3700
+Wire Wire Line
+	4550 4100 5100 4100
+Wire Wire Line
+	4600 4200 5100 4200
+Wire Wire Line
+	4650 4300 5100 4300
+Wire Wire Line
+	4700 4400 5100 4400
+Wire Wire Line
+	4550 1800 5100 1800
+Connection ~ 4550 1800
+Wire Wire Line
+	4550 1900 5100 1900
+Connection ~ 4550 1900
+Wire Wire Line
+	4550 2000 5100 2000
+Connection ~ 4550 2000
+Wire Wire Line
+	4550 2100 5100 2100
+Connection ~ 4550 2100
+Wire Wire Line
+	4550 2200 5100 2200
+Connection ~ 4550 2200
+Wire Wire Line
+	4550 2300 5100 2300
+Connection ~ 4550 2300
+Wire Wire Line
+	4550 2400 5100 2400
+Connection ~ 4550 2400
+$EndSCHEMATC
